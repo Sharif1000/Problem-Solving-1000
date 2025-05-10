@@ -9,7 +9,6 @@ int main()
     while(t--){
       int a, b; cin>>a>>b;
       if((a*b) % 3 == 0) cout<<(a*b) / 3<<endl;
-      else if(a*b == 2) cout<<1<<endl;
       else{
         int res = ceil((a * b)*1.0 / 3);
         cout<<res<<endl;
