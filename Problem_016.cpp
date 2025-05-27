@@ -14,7 +14,6 @@ int main() {
     long long window = 0;
     
     for(int i = 0; i < n; i++){
-      
       if(a[i] <= q) window++;
       else{
         if(window > k) cnt += ((window - k)* (window - k + 1)) / 2;
